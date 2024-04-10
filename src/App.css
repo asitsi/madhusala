@@ -1,0 +1,86 @@
+.container {
+  max-width: 1440px;
+}
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+.profileview {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.view_block {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 15px;
+  width: 22%;
+}
+
+.view_block h3 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 10px;
+  background: #eee;
+  margin: 0;
+}
+
+.view_block p {
+  padding: 10px 10px;
+  margin: 0;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.form-check-input {
+  margin: 0;
+}
+.check-box > label {
+  display: none;
+}
+.check-box > input {
+  height: 18px;
+  width: 18px;
+}
